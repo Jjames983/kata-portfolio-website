@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Banner -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="fw-bold">About Me</h1>
+            <p class="lead mb-0">Get to know my academic background, skills, and personal journey.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <!-- Biography / Profile Summary -->
+        <section class="row align-items-center mb-5">
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <img src="20240813_011832.jpg" alt="Profile Picture" class="rounded-circle img-fluid shadow border border-3 border-primary">
+            </div>
+            <div class="col-lg-8">
+                <h2 class="fw-bold mb-3">Who I Am</h2>
+                <p class="text-muted">
+                    Hello! I am an ambitious and dedicated student driven by a profound passion for technology and user-centric design. My academic journey has equipped me with a strong foundational grasp of software logic, problem-solving, and web standards. I strive to build intuitive applications that solve real-world problems.
+                </p>
+                <p class="text-muted">
+                    Outside of coding, I enjoy exploring open-source projects, keeping up with modern digital innovation trends, and continuously refining my technical stack.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education & Academic Background -->
+        <section class="mb-5">
+            <h2 class="fw-bold mb-4">Education & Coursework</h2>
+            <div class="table-responsive shadow-sm">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>INSTITUTION</th>
+                            <th>SCHOOL</th>
+                            <th>Status</th>
+                            <th>Key Coursework</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BUGEMA UNIVERSITY MAIN CAMPUS</td>
+                            <td>Bachelor of Science in Information Technology</td>
+                            <td>In Progress (Year 1)</td>
+                            <td>Data Structures, Web Design, Database Management, Networking</td>
+                        </tr>
+                        <tr>
+                            <td>High School</td>
+                            <td>Advanced Certificate of Education</td>
+                            <td>Completed</td>
+                            <td>Mathematics, Physics, Computer Studies</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Skills & Competencies -->
+        <section class="mb-5">
+            <h2 class="fw-bold mb-4">Skills & Competencies</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 class="fw-semibold">Technical Skills</h5>
+                    <label class="form-label mt-2">HTML5 & CSS3</label>
+                    <div class="progress mb-3" style="height: 20px;">
+                        <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+                    </div>
+                    <label class="form-label">Bootstrap 5</label>
+                    <div class="progress mb-3" style="height: 20px;">
+                        <div class="progress-bar bg-info" style="width: 85%;">85%</div>
+                    </div>
+                    <label class="form-label">JavaScript Basics</label>
+                    <div class="progress mb-3" style="height: 20px;">
+                        <div class="progress-bar bg-warning text-dark" style="width: 70%;">70%</div>
+                    </div>
+                    <label class="form-label">Git & GitHub Version Control</label>
+                    <div class="progress" style="height: 20px;">
+                        <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="fw-semibold">Soft Skills & Badges</h5>
+                    <div class="d-flex flex-wrap gap-2 mt-3">
+                        <span class="badge bg-secondary p-2 fs-6">Problem Solving</span>
+                        <span class="badge bg-secondary p-2 fs-6">Team Collaboration</span>
+                        <span class="badge bg-secondary p-2 fs-6">Time Management</span>
+                        <span class="badge bg-secondary p-2 fs-6">Effective Communication</span>
+                        <span class="badge bg-secondary p-2 fs-6">Adaptability</span>
+                        <span class="badge bg-secondary p-2 fs-6">Critical Thinking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests & Hobbies -->
+        <section>
+            <h2 class="fw-bold mb-3">Interests & Hobbies</h2>
+            <p class="text-muted">When I am not attending classes or writing code, you can find me engaged in:</p>
+            <ul class="list-group list-group-flush shadow-sm">
+                <li class="list-group-item"><i class="fas fa-book-reader text-primary me-2"></i> Reading tech blogs and software engineering articles.</li>
+                <li class="list-group-item"><i class="fas fa-camera text-primary me-2"></i> Landscape and architectural photography.</li>
+                <li class="list-group-item"><i class="fas fa-gamepad text-primary me-2"></i> Playing strategic puzzle and logic video games.</li>
+                <li class="list-group-item"><i class="fas fa-hiking text-primary me-2"></i> Outdoor hiking and exploring nature trails.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2026--26/BSE/BU/R/0025 JAMES. All Rights Reserved.</p>
+            <div class="mb-3">
+                <a href="https://www.facebook.com/jamesondenison" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-github fa-lg"></i></a>
+                <a href="Message James on WhatsApp. https://wa.me/message/VHPYLWVCC7H3A1" class="text-white mx-2"><i class="fab fa-Whatsapp fa-lg"></i></a>
+            </div>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="gallery.html" class="text-muted text-decoration-none">Gallery</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
